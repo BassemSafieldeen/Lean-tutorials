@@ -16,14 +16,14 @@ class bar (α : Type) extends foo α :=
 /--
 Let's prove a theorem.
 
-Theorem: If a type is bar it is also foo.
+Theorem: If a type α is bar it is also foo.
 -/
 theorem foo_of_bar (α : Type) : bar α → foo α :=
 begin
     intro,
     split,
     {refl},
-    {refl}
+    {refl},
 end
 
 /--
