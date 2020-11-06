@@ -1,6 +1,6 @@
-import tut2
-
 import linear_algebra.tensor_product
+
+import tut2
 
 open_locale tensor_product
 
