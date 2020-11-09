@@ -5,7 +5,7 @@ import tut2
 open_locale tensor_product
 
 variables {ℋ : Type} [complex_hilbert_space ℋ]
-{ρ σ τ : ℋ →ₗ[ℂ] ℋ} [quantum_state ρ] [quantum_state σ] [quantum_state τ]
+{ρ σ τ : module.End ℂ ℋ} [quantum_state ρ] [quantum_state σ] [quantum_state τ]
 
 #check tensor_product
 #check ρ ⊗ₜ[ℂ] σ

@@ -21,11 +21,11 @@ noncomputable def Tr := linear_map.trace ℂ ℋ
 A quantum state is a linear map from a Hilbert space to itself -- 
 a.k.a., a linear operator -- with trace one and an additional axiom.
 -/
-class quantum_state (ρ : ℋ →ₗ[ℂ] ℋ) :=
+class quantum_state (ρ : module.End ℂ ℋ) :=
 (trace_one : Tr ρ = 1)
 (axiom_2 : 1=1)
 
-variables {ρ σ : ℋ →ₗ[ℂ] ℋ} [quantum_state ρ] [quantum_state σ]
+variables {ρ σ : module.End ℂ ℋ} [quantum_state ρ] [quantum_state σ]
 
 example : Tr ρ = 1 := 
 begin
