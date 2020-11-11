@@ -6,4 +6,4 @@ path = "src"
 
 [dependencies]
 mathlib = {git = "https://github.com/leanprover-community/mathlib", rev = "09afb0465df681c12c2e53d8fb88e7c6ff7e807f"}
-Shannon-theory = {git = "https://github.com/BassemSafieldeen/Shannon-theory", rev = "8f655e9c47023de14787ec10114ca8512c225803"}
+Shannon-theory = {git = "https://github.com/BassemSafieldeen/Shannon-theory", rev = "7cccbb1a0f00ebd89afc202e25be1b0ebd0fdf27"}

@@ -1,14 +1,13 @@
 _target/
 leanpkg.path
-src/tut4.lean
+src/tut4_inner_prod.lean
 src/tut5.lean
-src/tut6.lean
-src/tut7.lean
+src/tut7_channel.lean
 src/tut8.lean
-src/tut12.lean
+src/tut11.lean
 src/tut13_ptrace.lean
 src/tut18.lean
-src/tut28_entropy.lean
+# src/tut28_entropy.lean
 src/tut29_mut_info.lean
 src/tut30_cond_entropy.lean
 src/tut31_coh_info.lean
